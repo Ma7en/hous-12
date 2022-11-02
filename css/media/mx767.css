@@ -1,0 +1,36 @@
+
+@media (max-width: 767px) {
+    
+
+    .cont-text {
+        text-align: center;
+    }
+
+    .cont-text h2 {
+        left: 0px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+}
+
+    .cont-img {
+        flex-direction: column;
+    }
+
+    .cont-1 {
+        flex-basis: 80%;
+        width: 80%;
+    }
+
+    .cont-2::before,
+    .cont-2::after {
+        display: none;
+    }
+
+
+}
+

@@ -1,0 +1,16 @@
+
+/*  */
+
+@media (max-width: 991px) {
+
+    .cont-img {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .cont-1 {
+        flex-basis: 48%;
+    }
+
+
+}
